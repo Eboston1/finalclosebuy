@@ -157,7 +157,7 @@ export default {
             });
         },
        findCloseBuyButtonPressed() {
-           const URL = `https://corsanywhere.herokuapp.com/https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${
+           const URL = `https://thingproxy.freeboard.io/fetch/https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${
              this.lat
              },${this.lng}&type=${this.type}&radius=${this.radius * 1000}&key=${process.env.VUE_APP_API_KEY}`;
            
