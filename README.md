@@ -1,4 +1,4 @@
-# my-first-project
+# my-first-vue-project
 
 > A Vue.js project
 
